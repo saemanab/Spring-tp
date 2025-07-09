@@ -24,7 +24,7 @@
             <td th:text="${p.price}"></td>
             <td th:text="${p.quantity}"></td>
             <td sec:authorize="hasAnyRole('ADMIN')">
-                <form method="delete" th:action="@{/admin/delete(id=${p.id})}">
+                <form method="post" th:action="@{/admin/delete(id=${p.id})}">
                     <button type="submit" class="btn btn-danger">
                         Delete
                     </button>
