@@ -76,7 +76,7 @@ Développer une application Web complète en utilisant l'écosystème Spring pou
 
 ```bash
 git clone https://github.com/saemanab/spring-tp.git
-cd nom-du-repo
+cd spring-tp
 
 
 ## author
